@@ -5,7 +5,7 @@ from datetime import datetime
 def api(name, description, prompt, author, date):
 
     # Define the URL of the API endpoint
-    url = 'http://127.0.0.1:8000/modes/'
+    url = 'https://128c-95-91-239-15.ngrok-free.app/modes/'
 
     data = {
         'name': name,
